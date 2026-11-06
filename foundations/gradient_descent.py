@@ -9,9 +9,7 @@ class Solution:
             return init
         while iterations > 0:
             x = x - learning_rate*2*x
-            # print(x_new,end=" ")
             iterations -= 1
-            # x = x_new
             
         return round(x,5)
         pass
